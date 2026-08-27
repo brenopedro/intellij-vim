@@ -41,12 +41,15 @@ map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
 map ge <Action>(GotoNextError)
 map gb <Action>(Back)
+map <C-j> <Action>(MoveStatementDown)
+map <C-k> <Action>(MoveStatementUp)
 
 " Text mapping
 map <leader>r <Action>(RenameElement)
 map <leader>cf <Action>(ReformatCode)
 map <leader>i <Action>(OptimizeImports)
 map <leader>g <Action>(Generate)
+map <leader>em <Action>(ExtractMethod)
 
 " Explorer
 map <leader>z <Action>(ToggleDistractionFreeMode)
